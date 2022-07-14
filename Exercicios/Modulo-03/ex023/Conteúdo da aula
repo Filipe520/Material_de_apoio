@@ -1,0 +1,89 @@
+
+                    Hierarquia de tabelas (simples)
+
+    TABLE = tabela
+        TABLE ROW = linha de tabela
+            TABLE HEADER = cabeçalho de tabela
+            TABLE DATA = dados de tabela
+
+
+    text-align: center; -- Alinhamento horizontal
+    vertical-align: meddle; -- alinhamento vertical
+
+                    ANATOMIA PARA TABELAS GRANDES
+
+    TABLE
+        THEAD               -- vai ser igual cabeçario que ficar no começo do site.
+            TR, TD, TH
+        TBODY               --  vai ser igual ao corpo do site que ficar no meio o conteúdo.
+            TR, TD, TH
+        TFOOT               --   vai ser igual ao rodaapé do site que vai ficar em baixoo.
+            TR, TD, TH
+              
+
+                                -----  CAPTION -----
+
+    CAPTION VAI SER A LEGENDA DA NOSSA TABELA ELE FICAR LOCALIZADO NO CENTRO DE CIMA DA TABELA.
+
+    É também não precisar de th ou td para escrever alguma coisa agente vai escrever dentro da tag.
+
+                          ----- SCOPE DENTRO DO TH -----
+
+    O scope ficar dentro dos th ele vai servir para os mecânismo do Google, ai dentro do scope
+    vai ter as opções col, colgroup, row, rowgroup.
+
+        scope="col" você vai tá falando para o mecânismo do Google que as informações
+     que tá dentro da tag th vai tá em coluna
+
+        é também quando colocar scope="row" vai ser do mesmo jeito mas a única diferença
+     que agente tá falando que agora vai ser em linha as inforções do th para o Google.
+
+                                ---- EFEITO Zebrado nas Tabelas ":nth-child"
+
+ Esse efeito vai fazer fazer um fundo para os th ou td é também da para colocar outas configurações dentro da tag tipo font-size
+ou font-weight entre outras.
+
+    Olhar sór
+
+            table tr:nth-child(5n -2) -- Agente pode colocar dentro dos parênteses add ou even que é PAR OU ÍMPAR.
+
+      oque eu tou falando, dentro de table vai ter os tr e dentro dos tr tem os filhos que vai ser o td,
+        ai acada 5 filhos vai ter uma interação eu coloquei tipo um background-color ai cada 5 filhos
+            vai pinta o background-color mas eu também coloquei -2 oque vai acontecer, ele vai conta 5
+                                         filhos e vai voltar 2.
+
+
+
+
+
+
+                            ------- Dados da Tabela -------  
+
+São Paulo	46 649 132
+Minas Gerais	21 411 923
+Rio de Janeiro	17 463 349
+Bahia Bahia	14 985 284
+Paraná	11 597 484
+Rio Grande do Sul	11 466 630
+Pernambuco	9 674 793
+Ceará	9 240 580
+Pará Pará	8 777 124
+Santa Catarina	7 338 473
+Goiás	7 206 589
+Maranhão	7 153 262
+Amazonas	4 269 995
+Espírito Santo	4 108 508
+Paraíba	4 059 905
+Mato Grosso	3 567 234
+Rio Grande do Norte	3 560 903
+Alagoas	3 365 351
+Piauí	3 289 290
+Distrito Federal    3 094 325
+Mato Grosso do Sul	2 839 188
+Sergipe	2 068 017	2 338 474
+Rondônia	1 815 278
+Tocantins	1 607 363
+Acre	906 876
+Amapá	877 613
+Roraima	652 713
+

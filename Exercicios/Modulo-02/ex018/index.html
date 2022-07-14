@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        @font-face {
+            font-family: 'Minha Fonte';
+            src: url('littlebird.ttf');
+        }
+        @font-face {
+            font-family: 'Minha Letra';
+            src: 
+            url('Great_Vibes/GreatVibes-Regula.ttf') 
+            format('opentype'), 
+            url('Great_Vibes/GreatVibes-Regular.ttf') 
+            format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-size: 15pt;
+        }
+        h2 {
+            font-weight: normal;
+        }
+        h2#padrao {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2#google {
+            font-family: Pacifico, cursive;
+        }
+        h2#local {
+            font-family: 'Minha Fonte', sans-serif;
+        }
+        h2#letra { 
+            font-family: 'Minha Letra', cursive;
+            font-size: 5em;
+        }
+        h2#letraNova {
+            font-family: 'Great Vibes', cursive;
+            font-size: 5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes em CSS</h1>
+    <h2 id="padrao">Podemos configurar fontes padrão do sistema</h2>
+    <h2 id="google">Ou então usar uma fonte do Google Fonts</h2>
+    <h2 id="local">Ou ainda usar um arquivo local de fontes</h2>
+    <h2 id="letra">Filipe Alves de Mendonça</h2>
+    <h2 id="letraNova">Zé da Programação</h2>
+</body>
+</html>

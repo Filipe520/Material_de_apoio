@@ -1,0 +1,51 @@
+@charset "UTF-8"; /* caso haja erro de acentuação */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: rgba(0, 153, 255, 0.466);
+    min-width: 320px;
+    max-width: 850px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+section {
+    display: flex;
+}
+
+table{
+    width: 400vh;
+    height: 400px;
+    border-collapse: collapse;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+table tr {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+table .numero {
+    text-align: right;
+    padding-right: 10px;
+}

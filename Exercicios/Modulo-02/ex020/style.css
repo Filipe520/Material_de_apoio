@@ -1,0 +1,37 @@
+@charset "UTF-8"; /* caso haja problemas com acentuação */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #659DBF;
+}
+h1 {
+    color: #593515;
+    text-align: center;
+}
+div > p {
+    display: none;                   /* O meu primeiro p vai esconder, é vai aparecer lá no meu div hover */
+}
+#destaque{
+    background-color: #41d9bd00;
+}
+div:hover > p {
+    display: block;                 /* Vai esconder o meu texto até eu passar o mouse em cima dele! */
+    background-color: #59351546;  /* Vai ser o fundo do texto */
+    width: 300px;                   /* Vai ser a largura do box */
+    color: #41d9bd;               /* Cor da letra */
+}
+.cor_do_box {
+    display: inline-block;          /* O display com a função inline-block ela é usada para organizar os boxs na tela */
+    background-color: #59351546;  /* Cor de Fundo */
+    border: 0.2px solid black;    /* Bordas do box contendo tamanho das bordas, elemento que vai ser solido, é cor das bordas. */
+    color: white;                 /* Cor das letras ou numeros ser ouver */
+    text-align: center;             /* Vai centralizar as letras e numeros no meio do box */
+    width: 300px;                   /* Vai ser a largura do box */
+    height: 200px;                  /* Altura do Box */
+}
+div:hover {
+    background-color: #f0f280;    /* É esse aqui vai ser quando passar o mouse a cor do box vai acender ou mudar de cor */
+}
+.MEU > p{
+    font-size:2em;
+}

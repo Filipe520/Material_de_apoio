@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.233);
+        }
+        
+        main > .bloco {
+            background-image: url(images/wallpaper002.jpg);
+            
+            height: 200px;
+            margin: 10px;
+            
+            
+            box-shadow: 4px 7px 10px 1px rgba(0, 238, 255, 0.212);
+            border: 1px solid rgba(0, 0, 0, 0.219);
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        div#fundo01 {
+            background-position: left top;
+        }
+
+        div#fundo02 {
+            background-position: left center;
+        }
+
+        div#fundo03 {
+            background-position: right bottom;
+        }
+
+        div#fundo04 {
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="bloco" id="fundo01"></div>
+        <div class="bloco" id="fundo02"></div>
+        <div class="bloco" id="fundo03"></div>
+        <div class="bloco" id="fundo04"></div>
+    </main>
+</body>
+</html>
